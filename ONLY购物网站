@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="common.css" />
+    <link type="text/css" rel="stylesheet" href="only.css" /> </head>
+<body>
+    <!-- 结构化标记:header  -->
+    <header id="header">
+        <div>
+            <a href="#" class="lf"> <img src="image/only_03.png" /> </a>
+            <ul class="lf">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul> <img src="image/only_06.png" class="rt" /> </div>
+    </header>
+    <!-- 显示 banner -->
+    <div id="banner"> <img src="image/only_11.png" />
+    </div>
+    <!-- 2015年中促 .... -->
+    <div id="year_pro">
+        <div>
+            <h1>2015年中促6.25免单大奖名单公布</h1>
+            <p> 请获奖买家耐心等待，本月底前会有官方客服统一联系
+                <br/> 8月1日，将统一为符合条件的获奖者发奖 </p> <span>
+			<a href="#">点击查看获奖者名单</a>
+			<b></b>
+		</span> </div>
+    c</div>
+    <!-- 秋季时尚风向标 -->
+    <div id="sub_banner">
+        <div class="sub_content">
+            <p class="lf"> <img src="image/only_14.png" /> </p>
+            <div class="text">
+                <h2>2015年秋季时尚风向标</h2> <span>I come from China,where are you come from</span> </div>
+            <p class="rt rt_text"> PURCHAISEIT </p>
+        </div>
+    </div>
+    <!-- 中间的两幅图 -->
+    <div id="mid_banner">
+        <!-- 1460 * 320 -->
+        <div class="content">
+            <!-- 990 * 320 --><img src="image/only_21.png" class="lf" />
+            <div class="lf"> <img src="image/only_22.png" /> <a href="#">点击查看</a> </div>
+        </div>
+    <a</div>
+    <!-- 放心购买 -->
+    <div id="relax_shopping">
+        <!-- 1460 * 130 -->
+        <div class="content">
+            <!-- 990 * 130 -->
+            <div class="border lf"></div>
+            <div class="text lf">
+                <h2>在售商品均参加活动 请放心购买</h2> <a href="#">&lt;查看全部商品&gt;</a> </div>
+            <div class="border rt"></div>
+        </div>
+    </div>
+    <!-- 表格 -->
+    <div id="info_box">
+        <table>
+            <tr>
+                <td>连衣裙</td>
+                <td>T恤</td>
+                <td>牛仔裤</td>
+                <td class="bg"> </td>
+            </tr>
+            <tr>
+                <td>西服</td>
+                <td>衬衫</td>
+                <td>短裤</td>
+                <td>半身裙</td>
+            </tr>
+            <tr>
+                <td>休闲裤</td>
+                <td>连体/背带裤</td>
+                <td>薄外套</td>
+                <td>针织衫/卫衣</td>
+            </tr>
+        </table>
+    </div>
+    <!-- 编辑推荐 -->
+    <div id="editor_recommend">
+        <div class="title"> <img src="image/only_110.png" />
+            <p>
+                <a href="#" class="lf_btn"></a>
+                <a href="#" class="rt_btn"></a>
+            </p>
+        </div>
+        <ul>
+            <li>
+                <a href="#"> <img src="image/only_27.png" /> </a>
+            </li>
+            <li>
+                <a href="#"> <img src="image/only_43.png" /> </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="current">
+                <a href="#"> <img src="image/only_32.png" /> </a>
+            </li>
+            <li>
+                <a href="#"> <img src="image/only_48.png" /> </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#"> <img src="image/only_29.png" /> </a>
+            </li>
+            <li>
+                <a href="#"> <img src="image/only_44.png" /> </a>
+            </li>
+        </ul>
+    </div>
+    <div id="hotselling">
+        <div>
+            <p> <img src="image/only_54.png" /> </p>
+            <ul>
+                <li>
+                    <a href="#"> <img src="image/only_64.png" /> </a>
+                </li>
+                <li class="mid">
+                    <a href="#"> <img src="image/only_66.png" /> </a>
+                </li>
+                <li>
+                    <a href="#"> <img src="image/only_68.png" /> </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p> <img src="image/only_56.png" /> </p>
+            <ul>
+                <li>
+                    <a href="#"> <img src="image/only_64.png" /> </a>
+                </li>
+                <li class="mid">
+                    <a href="#"> <img src="image/only_66.png" /> </a>
+                </li>
+                <li>
+                    <a href="#"> <img src="image/only_68.png" /> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="summer_new">
+        <p>2015夏季新品</p>
+        <p class="mid">新款专区</p>
+        <p>全部商品</p>
+    </div>
+    <!--售后-->
+    <div id="after_sell">
+        <div class="you">
+            <p></p>
+            <!-- 显示背景图 -->
+            <ul>
+                <li>品质保障</li>
+                <li class="normal">品质护航 购物无忧</li>
+            </ul>
+            <!-- 文字 -->
+        </div>
+        <div class="qi">
+            <p></p>
+            <!-- 显示背景图 -->
+            <ul>
+                <li>品质保障</li>
+                <li class="normal">品质护航 购物无忧</li>
+            </ul>
+            <!-- 文字 -->
+        </div>
+        <div class="you">
+            <p></p>
+            <!-- 显示背景图 -->
+            <ul>
+                <li>品质保障</li>
+                <li class="normal">品质护航 购物无忧</li>
+            </ul>
+            <!-- 文字 -->
+        </div>
+        <div class="qi last">
+            <p></p>
+            <!-- 显示背景图 -->
+            <ul>
+                <li>品质保障</li>
+                <li class="normal">品质护航 购物无忧</li>
+            </ul>
+            <!-- 文字 -->
+        </div>
+    </div>
+</body>
+</html>
