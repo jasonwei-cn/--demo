@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	font-family:"microsoft yahei","arial","verdana";
+	color:#333;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.lf{
+	float:left;
+}
+.rt{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+input{
+	border:none;
+}
