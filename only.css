@@ -1,0 +1,410 @@
+@charset "utf-8";
+#header {
+    width: 1460px;
+    height: 74px;
+    margin: 0px auto;
+    background: #EDEEF2;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#header>div {
+    width: 945px;
+    height: 74px;
+    margin: auto;
+    background: #565B61;
+}
+#header ul li {
+    float: left;
+    background: #424242;
+}
+#header ul li a {
+    display: inline-block;
+    height: 74px;
+    line-height: 74px;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+#header ul li a:hover {
+    background: #FFE900;
+    color: #4b4b1b;
+}
+#header>div>img {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+/***************banner广告*********************/
+#banner {
+    width: 1460px;
+    height: 630px;
+    margin: 0px auto;
+    position: relative;
+}
+#banner a {
+    position: absolute;
+    left: 0px;
+    top: -20px;
+}
+
+
+/************2015年中促***************/
+
+#year_pro {
+    width: 1460px;
+    height: 110px;
+    margin: 0px auto;
+    background: #EDEEF2;
+    position: relative;
+}
+
+#year_pro>div {
+    position: absolute;
+    top: -62px;
+    left: 235px;
+    padding: 10px 0 10px 0;
+    width: 988px;
+    height: 150px;
+    border: 1px solid #DFBB42;
+    background: #fff;
+    margin: 0px auto;
+}
+
+#year_pro h1 {
+    color: #E2AB10;
+    text-align: center;
+    font-size: 30pt;
+}
+
+#year_pro p {
+    width: 470px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 36px;
+    color: #E2AB10;
+    border-left: 1px solid #E2AB10;
+    border-right: 1px solid #E2AB10;
+    margin-top: 10px;
+}
+
+#year_pro span {
+    padding: 8px;
+    background: #502804;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+#year_pro span a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#year_pro span b {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border: 8px solid transparent;
+    border-left-color: #fff;
+    margin-left: 3px;
+}
+
+
+/********秋季时尚风向标*********/
+
+#sub_banner {
+    width: 1460px;
+    height: 89px;
+    background: #565B61;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#sub_banner .sub_content {
+    width: 970px;
+    height: 89px;
+    padding: 0px 10px;
+    margin: 0px auto;
+}
+
+.sub_content div.text {
+    float: left;
+    margin-left: 15px;
+}
+
+.sub_content div.text h2 {
+    color: #fff;
+    font-size: 22pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sub_content div.text span {
+    color: #fff;
+}
+
+.sub_content .rt_text {
+    height: 89px;
+    line-height: 89px;
+    padding: 0px 30px;
+    background: #FFEA01;
+}
+
+
+/**********中间两幅图片************/
+
+#mid_banner {
+    width: 1460px;
+    height: 320px;
+    margin: 0px auto;
+    margin-top: 10px;
+    background: #EFEFEF;
+}
+
+#mid_banner .content {
+    width: 990px;
+    height: 320px;
+    margin: 0px auto;
+}
+
+.content div {
+    position: relative;
+}
+
+#mid_banner .content div a {
+    position: absolute;
+    font-size: 14px;
+    color: #000;
+    text-decoration: underline;
+    right: 80px;
+    bottom: 50px;
+}
+
+
+/********放心购买*************/
+
+#relax_shopping {
+    width: 1460px;
+    margin: 0px auto;
+    margin-top: 5px;
+    height: 130px;
+}
+
+#relax_shopping .content {
+    width: 990px;
+    height: 130px;
+    margin: 0px auto;
+}
+
+#relax_shopping .content .border {
+    width: 170px;
+    margin: 0px 15px;
+    margin-top: 65px;
+    border-top: 1px solid #DADADA;
+}
+
+#relax_shopping .content .text {
+    width: 590px;
+    text-align: center;
+    margin-top: 53px;
+}
+
+#relax_shopping .content .text a {
+    color: #707070;
+    text-decoration: none;
+}
+
+
+/******表格文本信息*******/
+
+#info_box {
+    width: 990px;
+    margin: 10px auto;
+}
+
+#info_box table {
+    border-collapse: collapse;
+}
+
+#info_box td {
+    width: 246px;
+    border: 1px solid#d4d4d4;
+    text-align: center;
+    height: 78px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#info_box table td.bg {
+    background: url(image/only_108.png) no-repeat;
+}
+
+
+/*******编辑推荐*********/
+
+#editor_recommend {
+    width: 990px;
+    margin: 10px auto;
+}
+
+#editor_recommend .title {
+    width: 240px;
+    padding-top: 30px;
+    text-align: center;
+    float: left;
+}
+
+#editor_recommend .title p {
+    width: 180px;
+    margin: 20px auto 0px;
+    border-top: 5px solid #EFEFEF;
+    position: relative;
+}
+
+#editor_recommend .title a {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: url(image/only_39.png) no-repeat;
+    float: left;
+    position: absolute;
+}
+
+#editor_recommend .title a.lf_btn {
+    right: 38px;
+    top: -5px;
+}
+
+#editor_recommend .title a.rt_btn {
+    background-position: -38px 0px;
+    right: 0px;
+    top: -5px;
+}
+
+#editor_recommend ul {
+    float: left;
+    margin-left: 10px;
+    width: 240px;
+}
+
+#editor_recommend ul li.current {
+    border: 1px solid#000;
+}
+
+#editor_recommend ul li {
+    margin-bottom: 10px;
+}
+
+
+/********hot selling*********/
+
+#hotselling {
+    width: 990px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#hotselling div {
+    float: left;
+    margin-right: 15px;
+}
+
+#hotselling div p {
+    height: 370px;
+}
+
+#hotselling div ul li {
+    float: left;
+}
+
+#hotselling div ul li.mid {
+    margin: 0px 7px;
+}
+
+#hotselling div ul li a {
+    display: inline-block;
+    width: 117px;
+    height: 170px;
+    padding-top: 8px;
+}
+
+#hotselling div ul li a:hover {
+    background: url(image/only_1024.png) no-repeat center top;
+}
+
+
+/**********夏季新区********/
+
+#summer_new {
+    clear: both;
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+#summer_new p {
+    width: 170px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    background: #4C4C4C;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#summer_new p.mid {
+    margin: 0px 20px;
+}
+
+#summer_new p:hover {
+    background: #FFEA01;
+    color: #4C4C4C;
+}
+
+
+/***********after_sell******/
+
+#after_sell {
+    width: 990px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+#after_sell div {
+    float: left;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+#after_sell div p {
+    float: left;
+    background: url(image/iconlist_1.png) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+#after_sell div ul {
+    margin-left: 10px;
+    width: 130px;
+    float: left;
+}
+
+#after_sell div ul li {
+    line-height: 25px;
+}
+
+#after_sell div.last {
+    border: none;
+}
+
+#after_sell div.you p {}
+
+#after_sell div.qi p {
+    background-position: 0px -100px;
+}
